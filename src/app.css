@@ -1,0 +1,13 @@
+body {
+    background-color: #02040c;
+    font-family: "Courier 10 Pitch", monospace;
+}
+
+a {
+    color: #3befff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline cadetblue;
+}
