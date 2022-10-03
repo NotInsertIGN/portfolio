@@ -1,6 +1,14 @@
+:root {
+    --background-color: #02040c;
+}
+
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
 body {
-    background-color: #02040c;
-    font-family: "Courier 10 Pitch", monospace;
+    background-color: var(--background-color);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {

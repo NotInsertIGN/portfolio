@@ -1,5 +1,5 @@
 <script>
-	import Socials from './Socials.svelte';
+	  import Socials from '../general/Footer.svelte';
     import Navbar from "./Navbar.svelte";
 
     let home = "nav-element";
@@ -15,7 +15,7 @@
     <h1><span style="color:lightcoral">this</span>.<span style="color:#3befff">getProjects()</span>;</h1>
     <p>
         I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages <br>
-        and frameworks, including 
+        and frameworks, including
         <span style="color:orange">Java</span>,
         <span style="color:yellow">JavaScript</span>
         <br>
@@ -26,7 +26,7 @@
     .content {
         position: relative;
         width: 50%;
-        color: rgb(205, 221, 255);
+        color: #cdddff;
         left: 125px;
     }
     h1 {
