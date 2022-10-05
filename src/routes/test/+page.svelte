@@ -1,5 +1,5 @@
 <script>
-	import Code from '../../lib/Code.svelte';
+	import Code from '$lib/general/Code.svelte';
 	import Giscus from '../../lib/giscus/Giscus.svelte';
 
 	const source = `

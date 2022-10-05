@@ -1,9 +1,9 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount } from "svelte";
 	export let language;
 	export let code;
 	onMount(() => {
-		let script = document.createElement('script');
+		let script = document.createElement("script");
 		script.src = "https://tutsplus.github.io/syntax-highlighter-demos/highlighters/Prism/prism.js";
 		document.head.append(script);
 		script.onload = () => {
@@ -29,7 +29,7 @@
 					break;
 			}
 			if (languageJS === true) {
-				languageScript = document.createElement('script');
+				languageScript = document.createElement("script");
 				languageScript.src = languageModule;
 				languageScript.async = true;
 				document.head.append(languageScript);
@@ -43,10 +43,10 @@
 	});
 </script>
 
-<div class="code-container">
+<div class="code-block-container">
 	<pre><code class="language-{language}">{code}</code></pre>
 </div>
 
 <svelte:head>
-	<link rel="stylesheet" href='/themes/one-dark.css'>
+	<link rel="stylesheet" href="/themes/one-dark.css">
 </svelte:head>

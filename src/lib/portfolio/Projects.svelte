@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	  import Socials from '../general/Footer.svelte';
     import Navbar from "./Navbar.svelte";
 
@@ -14,29 +14,42 @@
 <div class="content">
     <h1><span style="color:lightcoral">this</span>.<span style="color:#3befff">getProjects()</span>;</h1>
     <p>
-        I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages <br>
+        I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages <br class="desktop">
         and frameworks, including
         <span style="color:orange">Java</span>,
         <span style="color:yellow">JavaScript</span>
-        <br>
+        <br class="desktop">
     </p>
 </div>
 
 <style>
+    @media (min-width: 320px) {
+        .desktop {
+            display:none
+        }
+        .content {
+
+        }
+    }
+    @media (min-width: 1600px) {
+        .desktop {
+            display: compact;
+        }
+    }
     .content {
         position: relative;
-        width: 50%;
+        width: clamp(70ch, 50%, 95ch);
         color: #cdddff;
         left: 125px;
     }
     h1 {
         position: relative;
         bottom: 150px;
-        font-size: 40px;
+        font-size: 2.5em;
     }
     p {
         position: relative;
         bottom: 135px;
-        font-size: 25px;
+        font-size: 1.6em;
     }
 </style>

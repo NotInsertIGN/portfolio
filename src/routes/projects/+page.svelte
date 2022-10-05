@@ -1,5 +1,5 @@
 <script lang="ts">
-		import Projects from '../../lib/portfolio/Projects.svelte';
+	import Projects from '../../lib/portfolio/Projects.svelte';
 </script>
 
 <svelte:head>

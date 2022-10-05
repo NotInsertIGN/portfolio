@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let home;
     export let skills;
     export let projects;
@@ -25,7 +25,7 @@
     .nav-element {
         position: relative;
         top: 25px;
-        left: 1525px;
+        left: 50em;
         width: 15%;
         padding-top: 25px;
         padding-bottom: 25px;

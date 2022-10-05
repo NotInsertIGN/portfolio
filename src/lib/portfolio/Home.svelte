@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Navbar from "./Navbar.svelte";
     import Socials from "../general/Footer.svelte";
 
@@ -37,26 +37,33 @@
 </div>
 
 <style>
-    @media (min-width: 250px) {
+    @media (min-width: 320px) {
       .desktop {
         display:none
       }
+      .content {
+
+      }
+    }
+    @media (min-width: 1600px) {
+      .desktop {
+        display: compact;
+      }
     }
     .content {
-        position: relative;
-        /*width: 50%;*/
-        width: clamp(70ch, 50%, 95ch);
-        color: #cdddff;
-        left: 125px;
+      position: relative;
+      width: clamp(70ch, 50%, 95ch);
+      color: #cdddff;
+      left: 125px;
     }
     h1 {
-        position: relative;
-        bottom: 150px;
-        font-size: 40px;
+      position: relative;
+      bottom: 150px;
+      font-size: 2.5em;
     }
     p {
-        position: relative;
-        bottom: 135px;
-        font-size: 25px;
+      position: relative;
+      bottom: 135px;
+      font-size: 1.6em;
     }
 </style>

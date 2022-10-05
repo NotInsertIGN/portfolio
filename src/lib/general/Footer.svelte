@@ -1,3 +1,6 @@
+<script>
+    import Giscus from "$lib/giscus/Giscus.svelte";
+</script>
 
 <div class="footer">
     <div class="socials">
@@ -22,25 +25,29 @@
 
 <style>
     .socials {
+        min-width: 100px;
         height: 30px;
         display: flex;
         justify-content: center;
     }
     .social {
+        min-width: 100px;
         position: relative;
         padding: 25px;
         top: 500px;
         right: 20px;
     }
     .description {
+        position: relative;
         color: white;
         display: flex;
         justify-content: flex-start;
     }
     .description-item {
         position: relative;
+        min-width: 100px;
         padding-left: 25px;
         padding-right: 25px;
-        top: 500px;
+        top: 31.5em;
     }
 </style>

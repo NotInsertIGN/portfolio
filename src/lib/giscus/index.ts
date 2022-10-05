@@ -52,4 +52,5 @@ export type AvailableLanguage =
 
 export type Loading = 'lazy' | 'eager';
 
+// @ts-ignore
 export { default } from './Giscus.svelte';

@@ -28,7 +28,6 @@
 		"@giscus/svelte": "^2.2.0",
 		"autoprefixer": "^10.4.12",
 		"postcss": "^8.4.17",
-		"postcss-load-config": "^4.0.1",
-		"prismjs": "^1.29.0"
+		"postcss-load-config": "^4.0.1"
 	}
 }
