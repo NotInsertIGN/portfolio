@@ -4,7 +4,8 @@
 	import { navigating } from "$app/stores";
 	import nProgress from "nprogress";
 	nProgress.configure({
-		minimum: 0.16
+		minimum: 0.16,
+		showSpinner: false
 	});
 
 	$: {
