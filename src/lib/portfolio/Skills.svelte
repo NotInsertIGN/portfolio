@@ -14,41 +14,35 @@
 <div class="content">
     <h1><span style="color:lightcoral">this</span>.<span style="color:#3befff">getSkills()</span>;</h1>
     <p>
-        I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages <br class="desktop">
+        I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages 
         and frameworks, including
         <span style="color:orange">Java</span>,
         <span style="color: #3b73ff">C++</span>,
         <span style="color: rebeccapurple">C#</span>,
-        <span style="color:yellow">JavaScript</span>,<br class="desktop">
+        <span style="color:yellow">JavaScript</span>,
         <span style="color: deepskyblue;">Dart</span>,
         <span style="color:lightseagreen">Python</span>,
         <span style="color: orangered;">Ruby</span> and (somewhat!) in
-        <span style="color:#b30000">Rust</span>. I'm also <br class="desktop">
+        <span style="color:#b30000">Rust</span>. I'm also 
         <span style="color: purple">well-acquainted</span> with
-        <span style="color: aquamarine">web development</span>, along with <br class="desktop">
+        <span style="color: aquamarine">web development</span>, along with 
         many different <span style="color: cornflowerblue;">frameworks</span>, such as
         <span style="color: crimson">SvelteKit</span>,
-        <span style="color: antiquewhite">NextJS</span>,<br class="desktop">
+        <span style="color: antiquewhite">NextJS</span>,
         <span style="color: seagreen;">NuxtJS</span>, and
         <span style="color: forestgreen">SpringBoot</span>.
         I
-
     </p>
 </div>
 
 <style>
     @media (min-width: 320px) {
-        .desktop {
-            display:none
-        }
         .content {
 
         }
     }
     @media (min-width: 1600px) {
-        .desktop {
-            display: compact;
-        }
+
     }
     .content {
         position: relative;

@@ -15,40 +15,36 @@
     <h1>System.out.println("<span style="color:#3befff">Hello world!</span>");</h1>
     <p>
       <span style="color:red">Hey!</span> I'm <span style="color:greenyellow">InsertIGN</span>,
-      although you may know me as<br class="desktop">
-      "that one annoying Java developer". I'm fluent in <br class="desktop">
+      although you may know me as
+      "that one annoying Java developer". I'm fluent in 
       over 12 programming languages, including
       <span style="color:orange">Java</span>,
-      <span style="color: #3b73ff">C++</span>, <br class="desktop">
+      <span style="color: #3b73ff">C++</span>, 
       <span style="color: rebeccapurple">C#</span>,
       <span style="color:yellow">JavaScript</span>,
       <span style="color: deepskyblue;">Dart</span>,
       <span style="color:blue">Python</span>,
-      Ruby and (somewhat!) <br class="desktop">in
+      Ruby and (somewhat!) in
       <span style="color:#b30000">Rust</span>. I'm also a huge fan of the
-      <span style="color:purple">Linux</span> operating <br class="desktop">
-      system, and I use it for a lot of my development. <br class="desktop">
-      I'm currently working on a few projects, including <br class="desktop">
-      <a href="https://github.com/hypixelapiwrapper/">Neopixel</a>, a group of easy-to-use wrappers for the <br class="desktop">
-      Hypixel API, <a href="https://github.com/NotInsertIGN/BiomesRevamped">BiomesRevamped</a>, a group of Minecraft <br class="desktop">
-      mods that revamp Minecraft's biomes, and a bunch of <br class="desktop"> random side projects,
-      <span style="color: dodgerblue">because what's a true developer <br class="desktop">without them?</span>
+      <span style="color:purple">Linux</span> operating 
+      system, and I use it for a lot of my development. 
+      I'm <span style="color: burlywood;">currently working</span> on a few projects, including
+      <a href="https://github.com/hypixelapiwrapper/">Neopixel</a>, a group of easy-to-use wrappers for the 
+      <span style="color: orangered">Hypixel</span> API, <a href="https://github.com/NotInsertIGN/BiomesRevamped">BiomesRevamped</a>, a group of
+      <span style="color: green">Minecraft</span>
+      mods that revamp the game's biomes, and a bunch of  random side projects,
+      <span style="color: dodgerblue">because what's a true developer without them?</span>
     </p>
 </div>
 
 <style>
     @media (min-width: 320px) {
-      .desktop {
-        display:none
-      }
       .content {
 
       }
     }
     @media (min-width: 1600px) {
-      .desktop {
-        display: compact;
-      }
+
     }
     .content {
       position: relative;

@@ -14,27 +14,21 @@
 <div class="content">
     <h1><span style="color:lightcoral">this</span>.<span style="color:#3befff">getProjects()</span>;</h1>
     <p>
-        I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages <br class="desktop">
+        I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages 
         and frameworks, including
         <span style="color:orange">Java</span>,
         <span style="color:yellow">JavaScript</span>
-        <br class="desktop">
     </p>
 </div>
 
 <style>
     @media (min-width: 320px) {
-        .desktop {
-            display:none
-        }
         .content {
 
         }
     }
     @media (min-width: 1600px) {
-        .desktop {
-            display: compact;
-        }
+
     }
     .content {
         position: relative;

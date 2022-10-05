@@ -1,21 +1,17 @@
 :root {
     --background-color: #02040c;
+    --font-color: #cdddff;
+    --accent-color: #3befff;
 }
-
-/*@tailwind base;*/
-/*@tailwind components;*/
-/*@tailwind utilities;*/
-
 body {
     background-color: var(--background-color);
+    color: var(--font-color);
     font-family: 'Courier New', Courier, monospace;
 }
-
 a {
-    color: #3befff;
+    color: var(--accent-color);
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline cadetblue;
 }
