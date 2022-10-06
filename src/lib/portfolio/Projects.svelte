@@ -1,15 +1,6 @@
 <script lang="ts">
-	  import Socials from '../general/Footer.svelte';
-    import Navbar from "./Navbar.svelte";
-
-    let home = "nav-element";
-    let skills = "nav-element";
-    let projects = "nav-element active";
+    // TODO
 </script>
-
-<Navbar {home} {skills} {projects}></Navbar>
-
-<Socials></Socials>
 
 <div class="content">
     <h1><span style="color:lightcoral">this</span>.<span style="color:#3befff">getProjects()</span>;</h1>
