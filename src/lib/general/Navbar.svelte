@@ -1,7 +1,7 @@
 <script lang="ts">
-    export let home;
-    export let skills;
-    export let projects;
+    export let home : string;
+    export let skills : string;
+    export let projects : string;
 </script>
 
 <div class="nav">
