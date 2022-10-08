@@ -1,4 +1,5 @@
 <script>
+	import Footer from './Footer.svelte';
     import Giscus from "$lib/giscus/Giscus.svelte";
 </script>
 

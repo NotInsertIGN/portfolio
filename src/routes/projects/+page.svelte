@@ -18,6 +18,6 @@
 
 <Navbar {...nav}></Navbar>
 
-<Projects></Projects>
-
 <Footer></Footer>
+
+<Projects></Projects>

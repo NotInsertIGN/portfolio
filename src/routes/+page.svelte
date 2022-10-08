@@ -18,6 +18,6 @@
 
 <Navbar {...nav}></Navbar>
 
-<Home></Home>
-
 <Footer></Footer>
+
+<Home></Home>

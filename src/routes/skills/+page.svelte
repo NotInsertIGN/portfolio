@@ -18,6 +18,6 @@
 
 <Navbar {...nav}></Navbar>
 
-<Skills></Skills>
-
 <Footer></Footer>
+
+<Skills></Skills>
