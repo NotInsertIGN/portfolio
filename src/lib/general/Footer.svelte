@@ -18,10 +18,10 @@
             <a href="https://www.youtube.com/channel/UCqZb6n_MaQbVE2iS93dTZgA"><img src="/socials/youtube.webp" alt="youtube" width=30 height=20></a>
         </div>
     </div>
-    <div class="description">
-        <span class="description-item">Made with <span style="color: crimson">love️</span>
-            by <span style="color: greenyellow">InsertIGN</span></span>
-    </div>
+<!--    <div class="description">-->
+<!--        <span class="description-item">Made with <span style="color: crimson">love️</span>-->
+<!--            by <span style="color: greenyellow">InsertIGN</span></span>-->
+<!--    </div>-->
 </div>
 
 <style>
@@ -38,17 +38,17 @@
         top: 500px;
         right: 20px;
     }
-    .description {
-        position: relative;
-        color: white;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .description-item {
-        position: relative;
-        min-width: 100px;
-        padding-left: 25px;
-        padding-right: 25px;
-        top: 31.5em;
-    }
+    /*.description {*/
+    /*    position: relative;*/
+    /*    color: white;*/
+    /*    display: flex;*/
+    /*    justify-content: flex-start;*/
+    /*}*/
+    /*.description-item {*/
+    /*    position: relative;*/
+    /*    min-width: 100px;*/
+    /*    padding-left: 25px;*/
+    /*    padding-right: 25px;*/
+    /*    top: 31.5em;*/
+    /*}*/
 </style>

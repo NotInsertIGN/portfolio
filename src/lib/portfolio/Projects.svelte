@@ -3,8 +3,8 @@
 </script>
 
 <div class="content">
-    <h1><span style="color:lightcoral">this</span>.<span style="color:#3befff">getProjects()</span>;</h1>
-    <p>
+    <h1 class="title"><span style="color:lightcoral">this</span>.<span style="color:#3befff">getProjects()</span>;</h1>
+    <p class="text">
         I'm <span style="color:greenyellow">familiar</span> in quite a few programming languages 
         and frameworks, including
         <span style="color:orange">Java</span>,
@@ -13,28 +13,26 @@
 </div>
 
 <style>
-    @media (min-width: 320px) {
-        .content {
+    @media only (max-width: 600px) {
 
-        }
     }
-    @media (min-width: 1600px) {
+    @media only (min-width: 600px) {
 
     }
     .content {
         position: relative;
         width: clamp(70ch, 50%, 95ch);
         color: #cdddff;
-        left: 125px;
+        left: 8.5rem;
     }
-    h1 {
+    h1.title {
         position: relative;
-        bottom: 150px;
-        font-size: 2.5em;
+        bottom: 10rem;
+        font-size: 2.5rem;
     }
-    p {
+    p.text {
         position: relative;
-        bottom: 135px;
-        font-size: 1.6em;
+        bottom: 9rem;
+        font-size: 1.6rem;
     }
 </style>

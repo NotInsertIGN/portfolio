@@ -24,11 +24,11 @@
     }
     .nav-element {
         position: relative;
-        top: 25px;
-        left: 50em;
+        top: 2rem;
+        left: 95rem;
         width: 15%;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
     }
     .active {
         text-decoration: line-through;
